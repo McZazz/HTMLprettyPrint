@@ -1,0 +1,189 @@
+:root {
+  /* background colors */
+  --ltblue: #9395a8;
+  --dkblue: #c6cad6;
+  /* code colors */
+  --codebg: rgb(46,52,64);
+  --stringgrn: rgb(163,190,140);
+  --funcgrn: rgb(143,188,187);
+  --codeblu: rgb(129,161,193);
+  --codewht: rgb(216,222,233);
+  --codenums: rgb(180,142,172);
+  --codegray: rgb(98,110,135);
+}
+
+/* code colors */
+.sg {
+  color: var(--stringgrn);
+}
+.cw {
+  color: var(--codewht);
+}
+.fg {
+  color: var(--funcgrn);
+}
+.cn {
+  color: var(--codenums);
+}
+.cg {
+  color: var(--codegray);
+}
+
+body {
+  margin: 5px auto 5px auto;
+  padding: 0 0 5px 0;
+  background-color: var(--dkblue);
+}
+
+.code {
+  /* gets scrollbars and nowrap */
+  line-height: 0.20rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  line-height: 0.20rem;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2%;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1.1rem;
+  background-color: var(--codebg);
+  color: var(--codeblu);
+}
+
+/* tabs */
+.t1 {
+  margin-left: 0.5rem;
+}
+.t2 {
+  margin-left: 1rem;
+}
+.t3 {
+  margin-left: 1.5rem;
+}
+.t4 {
+  margin-left: 2rem;
+}
+.t5 {
+  margin-left: 2.5rem;
+}
+.t6 {
+  margin-left: 3rem;
+}
+.t7 {
+  margin-left: 3.5rem;
+}
+.t8 {
+  margin-left: 4rem;
+}
+.t9 {
+  margin-left: 4.5rem;
+}
+.t10 {
+  margin-left: 5rem;
+}
+.t11 {
+  margin-left: 5.5rem;
+}
+.t12 {
+  margin-left: 6rem;
+}
+.t13 {
+  margin-left: 6.5rem;
+}
+.t14 {
+  margin-left: 7rem;
+}
+.t15 {
+  margin-left: 7.5rem;
+}
+.t16 {
+  margin-left: 8rem;
+}
+.t17 {
+  margin-left: 8.5rem;
+}
+.t18 {
+  margin-left: 9rem;
+}
+.t19 {
+  margin-left: 9.5rem;
+}
+.t20 {
+  margin-left: 10rem;
+}
+.t21 {
+  margin-left: 10.5rem;
+}
+.t22 {
+  margin-left: 11rem;
+}
+.t23 {
+  margin-left: 11.5rem;
+}
+.t24 {
+  margin-left: 12rem;
+}
+.t25 {
+  margin-left: 12.5rem;
+}
+.t26 {
+  margin-left: 13rem;
+}
+.t27 {
+  margin-left: 13.5rem;
+}
+.t28 {
+  margin-left: 14rem;
+}
+.t29 {
+  margin-left: 14.5rem;
+}
+.t30 {
+  margin-left: 15rem;
+}
+.t31 {
+  margin-left: 15.5rem;
+}
+.t32 {
+  margin-left: 16rem;
+}
+.t33 {
+  margin-left: 16.5rem;
+}
+.t34 {
+  margin-left: 17rem;
+}
+.t35 {
+  margin-left: 17.5rem;
+}
+.t36 {
+  margin-left: 18rem;
+}
+.t37 {
+  margin-left: 18.5rem;
+}
+.t38 {
+  margin-left: 19rem;
+}
+.t39 {
+  margin-left: 19.5rem;
+}
+.t40 {
+  margin-left: 20rem;
+}
+
+.notaclass {
+  align-items:
+  flex-direction:
+}
+
+.hidden {
+  color: hsla(206,61%,41%,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
